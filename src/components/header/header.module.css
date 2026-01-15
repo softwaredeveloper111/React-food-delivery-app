@@ -1,0 +1,59 @@
+
+
+.header{
+
+  width: 100%;
+  height: 34vw;
+  background: url("../../assets/frontend_assets/header_img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  position: relative;
+  color: white;
+}
+
+.header_content{
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 40%;
+  animation: fadeIn 3s;
+ 
+}
+
+
+
+.header_content>h1{
+  font-size: max(3.5vw , 20px);
+
+}
+
+.header_content>p{
+  font-size: max(.9rem , 10px);
+  color: #e4dede;
+}
+
+.header_content>button{
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 32px;
+  padding: .8rem 1rem;
+  cursor: pointer;
+  color: #6d6a6a;
+}
+
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 

@@ -1,0 +1,75 @@
+.navContainer{
+  width: 100%;
+  padding: 1.7rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.nav_links_container{
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+}
+
+.link{
+  color: rgb(104, 101, 101);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+
+
+.right_nav{
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.search_icon{
+  width: 1.2rem;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+
+.basket_icon_container{
+
+  position: relative;
+}
+
+.basket_icon{
+  width: 1.2rem;
+  object-fit: cover;
+  cursor: pointer
+}
+
+.active{
+  background-color: tomato;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  right: -7px
+}
+
+
+.signin_btn{
+  background-color: transparent;
+  border: 1px solid rgb(104, 101, 101);
+  border-radius: 32px;
+  padding: 0.5rem 1.1rem;
+  color: rgb(104, 101, 101);
+  cursor: pointer;
+  font-size: .9rem;
+  transition: background-color .3s ease-in-out;
+
+}
+
+.signin_btn:hover{
+  background-color: rgb(104, 101, 101);
+  color: white;
+}
