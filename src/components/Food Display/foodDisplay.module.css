@@ -1,5 +1,22 @@
 .FoodDisplayContainer{
   width: 100%;
   position: relative;
-  
+  margin-top: 40px;
 }
+
+.FoodDisplayContainer>h2{
+  font-size: max(1.6vw,20px);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+
+.foodDisplayItemContainer{
+  width: 100%;
+  margin-top: 10px;
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+  gap: 30px;
+  row-gap: 50px;
+}
+
