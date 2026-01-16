@@ -14,7 +14,7 @@ const FoodDisplay = () => {
 
           <h2>Top dishes near you</h2>
          <div className={style.foodDisplayItemContainer}>
-          {items.map(item=><FoodDisplayCard key={crypto.randomUUID()} item={item}/>)}
+          {items.map(item=><FoodDisplayCard key={item._id} item={item}/>)}
          </div>
     </div>
   )
