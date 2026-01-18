@@ -5,7 +5,7 @@ import { assets } from '../../assets/frontend_assets/assets';
 const Footer = () => {
   
   return (
-    <div className={style.footerContainer}>
+    <div className={style.footerContainer} id='contact-us'>
       
       <div className={style.footerContents}>
          <div className={style.left}>

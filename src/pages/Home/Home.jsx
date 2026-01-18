@@ -12,7 +12,7 @@ const Home = () => {
 
 
   return (
-    <div className={style.home}>
+    <div className={style.home} id='home'>
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory}/>
       <FoodDisplay/>

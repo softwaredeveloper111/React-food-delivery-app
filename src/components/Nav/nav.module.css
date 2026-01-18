@@ -73,3 +73,8 @@
   background-color: rgb(104, 101, 101);
   color: white;
 }
+
+
+.bb{
+  border-bottom: 2px solid black;
+}

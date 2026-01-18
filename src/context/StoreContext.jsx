@@ -22,7 +22,7 @@ const StoreContext = ({children}) => {
   
 
  useEffect(()=>{
-   console.log(cartItems)
+   
  },[cartItems])
 
   return (

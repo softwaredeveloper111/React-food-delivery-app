@@ -8,7 +8,7 @@ const AppDownload = () => {
   
 
   return (
-    <div className={style.app_download_component}>
+    <div className={style.app_download_component} id='mobile-app'>
          <h1>For Better Experience Download <br /> Tomato App</h1>
          <div className={style.app_download_images}>
           <img src={assets.play_store} alt="" />

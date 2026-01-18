@@ -1,0 +1,118 @@
+/* placeOrder component container styling  */
+
+.placroder_container{
+  width: 100%;
+  min-height: 60vh;
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* placeOrder component container  left part styling */
+
+.placeorder_container_left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.placeorder_container_left>h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+
+.placeorder_container_left>form{
+ 
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.placeorder_container_left>form>input{
+  width: 100%;
+  
+}
+
+.placeorder_container_left>form>div{
+  display: flex;
+  gap: 10px;
+}
+
+
+.placeorder_container_left>form>div>input{
+  flex-grow: 1;
+}
+
+.placeorder_container_left>form input{
+   padding: 12px 12px;
+   outline: none;
+}
+
+
+
+/* placeroder component container right part styling  */
+
+
+
+.placeorder_container_right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.placeorder_container_right>h4{
+  font-size: 1.4rem;
+}
+
+
+.calculate{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.innerCalculate{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerCalculate:nth-child(1),.innerCalculate:nth-child(2){
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.innerCalculate>span{
+  opacity: .7;
+  font-size: 1rem;
+
+}
+
+
+.innerCalculate>h5{
+  opacity: 1;
+  font-size: 1.1rem;
+}
+
+
+.placeorder_container_right>button{
+  width: fit-content;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 15px;
+  background-color: #FB5C26;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: scale 0.4s linear;
+}
+
+
+.placeorder_container_right>button:active{
+  scale: 0.85;
+}
